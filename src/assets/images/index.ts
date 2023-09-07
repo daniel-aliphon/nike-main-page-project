@@ -1,3 +1,4 @@
+// @ts-ignore
 import bigShoe1 from "./big-shoe1.png";
 import bigShoe2 from "./big-shoe2.png";
 import bigShoe3 from "./big-shoe3.png";

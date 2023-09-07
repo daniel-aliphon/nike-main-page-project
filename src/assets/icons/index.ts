@@ -1,3 +1,4 @@
+// @ts-ignore
 import chevronLeft from "./chevron-left.svg";
 import cheveronRight from "./chevron-right.svg";
 import copyrightSign from "./copyright-sign.svg";
