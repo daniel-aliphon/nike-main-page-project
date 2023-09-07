@@ -1,10 +1,10 @@
 import { arrowRight } from "../assets/icons";
-import { offer } from "../assets/images";
+import offer from "../assets/images/offer.svg";
 import { Button } from "../components";
 
 const SpecialOffer = ({ themeColor }: any) => {
   return (
-    <section className="flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container">
+    <section className="flex items-center justify-between gap-10 max-xl:flex-col-reverse max-container">
       <div className="flex-1">
         <img
           src={offer}
@@ -14,8 +14,8 @@ const SpecialOffer = ({ themeColor }: any) => {
           className="object-contain w-full"
         />
       </div>
-      <div className="flex flex-1 flex-col">
-        <h2 className="text-4xl font-palanquin font-bold">
+      <div className="flex flex-col flex-1">
+        <h2 className="text-4xl font-bold font-palanquin">
           <span className="colored">Special </span>
           Offer
         </h2>
@@ -29,14 +29,14 @@ const SpecialOffer = ({ themeColor }: any) => {
           desires, surpassing the loftiest expectations. Your journey with us is
           nothing short of exceptional.
         </p>
-        <div className="mt-11 flex flex-wrap gap-4">
+        <div className="flex flex-wrap gap-4 mt-11">
           <Button
             label="Learn more"
             backgroundColor="bg-white"
             borderColor="border-slate-gray"
             textColor="text-slate-gray"
           />
-          <div className=" hover:translate-x-6 transition-all duration-700 hover:duration-150">
+          <div className="transition-all duration-700 hover:translate-x-6 hover:duration-150">
             <Button
               label="Shop now"
               themeColor={themeColor}

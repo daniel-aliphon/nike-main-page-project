@@ -1,4 +1,4 @@
-import { shoe8 } from "../assets/images";
+import shoe8 from "../assets/images/shoe8.svg";
 import { Button } from "../components";
 
 const SuperQuality = () => {

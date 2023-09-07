@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { shoes, statistics } from "../constants";
 import { Button, ShoeCard } from "../components";
-import { bigShoe2 } from "../assets/images";
+import bigShoe2 from "../assets/images/big-shoe2.png";
 import { arrowRight } from "../assets/icons";
 
 const Hero = ({ themeColor, darkMode }: any) => {
