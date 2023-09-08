@@ -1,5 +1,3 @@
-// @ts-ignore
-
 import { Nav } from "./components";
 import {
   CustomerReviews,
@@ -29,7 +27,7 @@ const App = () => {
   }, [themeColor]);
 
   useEffect(() => {
-    localStorage.setItem("darkMode", darkMode);
+    localStorage.setItem("darkMode", darkMode.toString());
   }, [darkMode]);
   //
   if (themeColor === "red") {
