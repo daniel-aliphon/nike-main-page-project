@@ -63,48 +63,72 @@ export const products = [
     name: "Nike Air Jordan-01",
     price: "R 3,000.00",
     rating: "4.8",
+    title: "Classic Comfort",
+    description:
+      "Discover the perfect blend of style and comfort. Ideal for all-day wear, these shoes feature plush cushioning and timeless designs for a truly versatile addition to your wardrobe.",
   },
   {
     imgURL: shoe5,
     name: "Nike Air Jordan-10",
     price: "R 4,400.00",
     rating: "4.6",
+    title: "Innovative Performance",
+    description:
+      "Experience the future of footwear with our Innovative Performance line. Packed with groundbreaking technology, these shoes push boundaries and redefine what's possible in terms of comfort and functionality",
   },
   {
     imgURL: shoe6,
     name: "Nike Air Jordan-100",
     price: "R 3,500.00",
     rating: "4.9",
+    title: "Casual Comfort",
+    description:
+      "Embrace laid-back vibes with our Casual Comfort shoes. With a relaxed fit and unbeatable comfort, these shoes are the go-to choice for everyday errands and weekend outings.",
   },
   {
     imgURL: shoe7,
     name: "Nike Air Jordan-001",
     price: "R 4,100.00",
     rating: "4.5",
+    title: "Urban Edge",
+    description:
+      "Stay ahead of fashion trends with our Urban Edge collection. These shoes feature cutting-edge designs and street-smart style to help you stand out in the cityscape.",
   },
   {
     imgURL: shoe4,
     name: "Nike Air Jordan-11",
     price: "R 3,000.00",
     rating: "4.8",
+    title: "Classic Comfort",
+    description:
+      "Discover the perfect blend of style and comfort. Ideal for all-day wear, these shoes feature plush cushioning and timeless designs for a truly versatile addition to your wardrobe.",
   },
   {
     imgURL: shoe5,
     name: "Nike Air Jordan-011",
     price: "R 4,400.00",
     rating: "4.6",
+    title: "Innovative Performance",
+    description:
+      "Experience the future of footwear with our Innovative Performance line. Packed with groundbreaking technology, these shoes push boundaries and redefine what's possible in terms of comfort and functionality",
   },
   {
     imgURL: shoe6,
     name: "Nike Air Jordan-111",
     price: "R 3,500.00",
     rating: "4.9",
+    title: "Casual Comfort",
+    description:
+      "Embrace laid-back vibes with our Casual Comfort shoes. With a relaxed fit and unbeatable comfort, these shoes are the go-to choice for everyday errands and weekend outings.",
   },
   {
     imgURL: shoe7,
     name: "Nike Air Jordan-101",
     price: "R 4,100.00",
     rating: "4.5",
+    title: "Urban Edge",
+    description:
+      "Stay ahead of fashion trends with our Urban Edge collection. These shoes feature cutting-edge designs and street-smart style to help you stand out in the cityscape.",
   },
 ];
 
