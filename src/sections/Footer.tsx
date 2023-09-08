@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="max-container">
       <div className="flex flex-wrap items-start justify-between gap-20 max-lg:flex-col">
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col items-start max-sm:items-center">
           <a href="#home">
             <img
               src={footerLogo}
@@ -16,7 +16,7 @@ const Footer = () => {
               className="m-0"
             />
           </a>
-          <p className="mt-6 text-base leading-7 text-black font-montserrat sm:max-w-sm">
+          <p className="mt-6 text-base leading-7 text-black max-sm:text-center font-montserrat sm:max-w-sm">
             Get shoes ready for the new term at your nearest Nike store. Find
             Your perfect Size In Store. Get Rewards
           </p>
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap justify-between flex-1 gap-20 lg:gap-10">
+        <div className="flex flex-wrap justify-between flex-1 gap-20 max-sm:hidden lg:gap-10">
           {footerLinks.map((section) => (
             <div key={section.title}>
               <h4 className="mb-6 text-2xl font-medium leading-normal text-black font-montserrat">
@@ -49,7 +49,7 @@ const Footer = () => {
               <ul>
                 {section.links.map((link) => (
                   <li
-                    className="mt-3 text-base leading-normal text-black hover:cursor-pointer font-montserrat hover:text-slate-gray"
+                    className="mt-3 text-base leading-normal text-black hover:cursor-pointer font-montserrat hover:text-slate-gray "
                     key={link.name}>
                     {link.name}
                   </li>

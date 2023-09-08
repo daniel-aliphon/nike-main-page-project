@@ -13,19 +13,19 @@ const Hero = ({ themeColor, darkMode }: any) => {
       className="flex flex-col justify-center w-full min-h-screen gap-10 xl:flex-row max-container">
       <div className="relative flex flex-col items-start justify-center w-full xl:w-2/5 max-xl:padding-x pt-28">
         <p className="text-xl font-montserrat colored">
-          a world of comfort and sleek design with the latest release of our new
-          collections
+          Ensuring a world of comfort and sleek design with the latest release
+          of our new collections
         </p>
 
         <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
           <span
-            className={` ${
+            className={` pb-4  ${
               darkMode === false ? "xl:bg-slate-900" : "xl:bg-white"
             } rounded-full xl:whitespace-nowrap relative z-[2] pr-10`}>
             Creating the next
           </span>
           <br />
-          <span className="inline-block mt-3 colored">Trends</span>
+          <span className="inline-block mt-8 colored">Trends</span>
         </h1>
         <p className="mt-6 text-lg leading-8 font-montserrat text-slate-gray mb-14 sm:max-w-sm">
           Explore the latest releases, featuring both chic designs and

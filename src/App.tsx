@@ -10,15 +10,25 @@ import {
   SuperQuality,
 } from "./sections";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const App = () => {
   //
-  const [darkMode, setDarkMode] = useState(false);
-  //
+  const [themeColor, setThemeColor] = useState(
+    localStorage.getItem("themeColor") || "blue"
+  );
 
-  //
-  const [themeColor, setThemeColor] = useState("blue");
+  const [darkMode, setDarkMode] = useState(
+    localStorage.getItem("darkMode") === "true"
+  );
+
+  useEffect(() => {
+    localStorage.setItem("themeColor", themeColor);
+  }, [themeColor]);
+
+  useEffect(() => {
+    localStorage.setItem("darkMode", darkMode);
+  }, [darkMode]);
   //
   if (themeColor === "red") {
     var themeClass = "red-theme";
