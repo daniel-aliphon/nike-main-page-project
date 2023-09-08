@@ -1,3 +1,5 @@
+// @ts-ignore
+
 import { Nav } from "./components";
 import {
   CustomerReviews,
