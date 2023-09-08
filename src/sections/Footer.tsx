@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="max-container">
       <div className="flex flex-wrap items-start justify-between gap-20 max-lg:flex-col">
         <div className="flex flex-col items-start">
-          <a href="/">
+          <a href="#home">
             <img
               src={footerLogo}
               alt="logo"
@@ -49,9 +49,9 @@ const Footer = () => {
               <ul>
                 {section.links.map((link) => (
                   <li
-                    className="mt-3 text-base leading-normal text-black font-montserrat hover:text-slate-gray"
+                    className="mt-3 text-base leading-normal text-black hover:cursor-pointer font-montserrat hover:text-slate-gray"
                     key={link.name}>
-                    <a href={link.link}>{link.name}</a>
+                    {link.name}
                   </li>
                 ))}
               </ul>
